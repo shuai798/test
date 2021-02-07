@@ -1,0 +1,34 @@
+// 项目扩展样式表
+@import './assets/theme/variables.less';
+
+//覆盖因为主题色影响的样式
+.ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon {
+    color: @color-white !important;
+}
+
+.tableList {
+    flex: 1;
+}
+
+.treeWidth {
+    width: 216px;
+    //overflow-x: scroll;
+}
+
+.filter-footer {
+    height: 36px;
+    line-height: 36px;
+    padding: 0 8px;
+    border-top: 1px solid #e8eaeb;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.radio-total {
+    border-right: 1px solid #d9d9d9;
+    border-radius: 0 4px 4px 0;
+}
+
+.formListAuto .large-form-item .ant-form-item-control-wrapper {
+    overflow: hidden;
+}

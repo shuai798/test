@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>夜间阵雨</title>
+    <defs>
+        <radialGradient cx="23.9648813%" cy="20.5297767%" fx="23.9648813%" fy="20.5297767%" r="84.2986863%" gradientTransform="translate(0.239649,0.205298),scale(1.000000,0.916615),rotate(62.816540),translate(-0.239649,-0.205298)" id="radialGradient-1">
+            <stop stop-color="#FAC856" offset="0%"></stop>
+            <stop stop-color="#F89B2B" offset="100%"></stop>
+        </radialGradient>
+        <path d="M7.06645048,6.07470795 C7.06645048,12.8246162 12.3393799,18.296498 18.8438679,18.296498 C19.9366797,18.296498 20.9947284,18.1420433 21.998848,17.8530227 C19.9678995,21.5260036 16.1510702,24 11.7774175,24 C5.27292941,24 0,18.5281182 0,11.77821 C0,6.16234628 3.64997032,1.43114429 8.62243738,-0.000104759099 C7.63239417,1.78916823 7.06645048,3.86335277 7.06645048,6.07470795 Z" id="path-2"></path>
+        <radialGradient cx="23.9648813%" cy="20.5297767%" fx="23.9648813%" fy="20.5297767%" r="84.2986863%" gradientTransform="translate(0.239649,0.205298),scale(1.000000,0.916615),rotate(62.816540),translate(-0.239649,-0.205298)" id="radialGradient-4">
+            <stop stop-color="#FFDD60" offset="0%"></stop>
+            <stop stop-color="#FF9F34" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#005397" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <path d="M8.60294118,0 C11.8738257,0 14.8973364,2.38379832 15.9001713,5.91639416 C16.9718092,4.89497451 18.4322169,4.26666667 20.0416667,4.26666667 C23.3323633,4.26666667 26,6.8932628 26,10.1333333 C26,13.193512 23.6203596,15.7064466 20.5836628,15.9760545 L20.5833333,16 L8.66666667,16 L8.60294118,16 C3.63768641,16 0,12.418278 0,8.47058824 C0,3.581722 3.63768641,0 8.60294118,0 Z" id="path-6"></path>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.692308,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-8">
+            <stop stop-color="#ECF6FF" offset="0%"></stop>
+            <stop stop-color="#C3DEFB" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-15.4%" y="-22.2%" width="130.8%" height="144.4%" filterUnits="objectBoundingBox" id="filter-9">
+            <feGaussianBlur stdDeviation="1.33333333" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-283.000000, -317.000000)">
+            <g id="夜间阵雨" transform="translate(283.000000, 317.000000)">
+                <rect id="矩形备份-18" x="0" y="0" width="32" height="32"></rect>
+                <g id="形状结合备份-8" transform="translate(0.000000, 1.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="蒙版" fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+                    <path d="M9.06645048,4.07470795 C9.06645048,10.8246162 14.3393799,16.296498 20.8438679,16.296498 C21.9366797,16.296498 22.9947284,16.1420433 23.998848,15.8530227 C21.9678995,19.5260036 18.1510702,22 13.7774175,22 C7.27292941,22 2,16.5281182 2,9.77820996 C2,4.16234628 5.64997032,-0.568855709 10.6224374,-2.00010476 C9.63239417,-0.210831774 9.06645048,1.86335277 9.06645048,4.07470795 Z" id="形状结合备份-6" fill="url(#radialGradient-4)" mask="url(#mask-3)"></path>
+                </g>
+                <g id="编组-6备份-20" opacity="0.98" transform="translate(6.000000, 10.000000)">
+                    <mask id="mask-7" fill="white">
+                        <use xlink:href="#path-6"></use>
+                    </mask>
+                    <g id="形状结合">
+                        <use fill="#DDF0FF" xlink:href="#path-6"></use>
+                        <use fill="url(#linearGradient-5)" xlink:href="#path-6"></use>
+                    </g>
+                    <path d="M8.75,-5 C12.1047933,-5 15.2299732,-2.80361832 16.6359418,0.559355601 C17.2258824,0.386834251 17.851863,0.294117647 18.5,0.294117647 C22.0898509,0.294117647 25,3.1384263 25,6.64705882 C25,10.1556914 22.0898509,13 18.5,13 C18.484258,13 18.468529,12.9999453 18.4528133,12.9998361 L8.812,12.999 L8.75,13 C3.22143563,13 -0.854880375,9.1107063 -0.996207386,4.76275686 L-1,4.52941176 C-1,-0.970562748 3.12271126,-5 8.75,-5 Z" id="形状结合备份" fill="url(#radialGradient-8)" filter="url(#filter-9)" mask="url(#mask-7)"></path>
+                    <path d="M8.75,-5 C12.1047933,-5 15.2299732,-2.80361832 16.6359418,0.559355601 C17.2258824,0.386834251 17.851863,0.294117647 18.5,0.294117647 C22.0898509,0.294117647 25,3.1384263 25,6.64705882 C25,10.1556914 22.0898509,13 18.5,13 C18.484258,13 18.468529,12.9999453 18.4528133,12.9998361 L8.812,12.999 L8.75,13 C3.22143563,13 -0.854880375,9.1107063 -0.996207386,4.76275686 L-1,4.52941176 C-1,-0.970562748 3.12271126,-5 8.75,-5 Z" id="形状结合备份-5" fill="url(#radialGradient-8)" mask="url(#mask-7)"></path>
+                </g>
+                <g id="编组-6" transform="translate(11.000000, 28.000000)" stroke="#69B3FE" stroke-linecap="round" stroke-width="1.5">
+                    <line x1="0.838798157" y1="-3.36397576e-14" x2="0.161201657" y2="1.17363157" id="路径备份-12"></line>
+                    <line x1="16.9275965" y1="2.48674684e-08" x2="16.25" y2="1.17363159" id="路径备份-13"></line>
+                    <line x1="8.75" y1="0.110181202" x2="7.25" y2="2.70825741" id="路径备份-14"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

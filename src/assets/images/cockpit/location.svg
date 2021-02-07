@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>地点</title>
+    <defs>
+        <radialGradient cx="51.7109455%" cy="33.5563414%" fx="51.7109455%" fy="33.5563414%" r="133.333333%" gradientTransform="translate(0.517109,0.335563),scale(1.000000,0.750000),rotate(90.000000),translate(-0.517109,-0.335563)" id="radialGradient-1">
+            <stop stop-color="#FFDD60" offset="0%"></stop>
+            <stop stop-color="#FF9F34" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设备监控驾驶舱" transform="translate(-1513.000000, -19.000000)" fill="url(#radialGradient-1)">
+            <g id="顶部">
+                <g id="天气" transform="translate(1513.000000, 13.000000)">
+                    <g id="编组-23" transform="translate(0.000000, 4.000000)">
+                        <path d="M13,2 C17.9705627,2 22,6.02943725 22,11 C22,18.560051 15.1536007,26 13,26 C10.8463993,26 4,18.560051 4,11 C4,6.02943725 8.02943725,2 13,2 Z M13,7 C10.790861,7 9,8.790861 9,11 C9,13.209139 10.790861,15 13,15 C15.209139,15 17,13.209139 17,11 C17,8.790861 15.209139,7 13,7 Z" id="地点"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

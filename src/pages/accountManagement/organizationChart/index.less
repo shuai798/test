@@ -1,0 +1,89 @@
+@import '~antd/es/style/themes/default.less';
+
+// .dividerStyle {
+//     :global {
+//         .ant-divider,
+//         .ant-divider-vertical {
+//             margin: 0 10.5px;
+//         }
+//     }
+// }
+
+// .morePadding {
+//     :global {
+//         .ant-popover-inner-content {
+//             padding: 4px 0;
+//         }
+//     }
+// }
+
+.popover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px 0;
+
+  a {
+    font-size: 14px;
+    line-height: 1.5;
+    width: 100%;
+    height: 32px;
+    padding: 6px 20px;
+    text-align: center;
+  }
+
+  a:hover {
+    background: rgba(0, 136, 255, 0.1);
+  }
+}
+
+.titleStyle {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+
+  .iconStyle {
+    width: 4px;
+    height: 16px;
+    background: #4db22f;
+    margin-right: 16px;
+    border-radius: 1px;
+  }
+
+  .fontStyle {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 1.5;
+    font-weight: 500;
+  }
+}
+
+.treeStyle {
+  width: 444px;
+  height: 282px;
+  background: #f9fafb;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  overflow-y: scroll;
+
+  ::-webkit-scrollbar {
+    width: 4px;
+    background: transparent;
+    border-radius: 2px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(0, 51, 255, 0.8);
+  }
+}
+
+.menuRole {
+  width: 79px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.85);
+  letter-spacing: 0;
+  text-align: right;
+  margin-bottom: 12px;
+}

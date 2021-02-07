@@ -1,0 +1,256 @@
+@import '~antd/es/style/themes/default.less';
+
+.over-ant-select-tree {
+    :global {
+        .ant-select-tree {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+    }
+}
+
+.detail-header {
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.information-title {
+    color: rgba(0, 0, 0, 0.85);
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.information-descriptions {
+    :global {
+        .ant-descriptions-item-label {
+            width: 140px;
+            text-align: center;
+        }
+    }
+}
+
+.parameter-settings-descriptions {
+    :global {
+        .ant-descriptions-item-label {
+            width: 180px;
+            text-align: center;
+        }
+    }
+}
+
+.descriptions-content-operation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 384px;
+}
+
+.device-expired-false {
+    background: rgba(0, 134, 255, 0.2);
+    border-radius: 2px;
+    color: #0086ff;
+    width: 52px;
+    height: 21px;
+    display: inline-block;
+    line-height: 21px;
+    text-align: center;
+}
+
+.device-expired-true {
+    background: rgba(255, 59, 59, 0.2);
+    border-radius: 2px;
+    color: #ff3b3b;
+    width: 52px;
+    height: 21px;
+    display: inline-block;
+    line-height: 21px;
+    text-align: center;
+}
+
+.device-card {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.device-card-title {
+    line-height: 44px;
+    padding-left: 24px;
+    border-radius: 1px 1px 0 0;
+    height: 44px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.device-card-title > span {
+    position: relative;
+    bottom: 2px;
+}
+
+.device-card-content {
+    height: 96px;
+    background: #ffffff;
+    border-radius: 0 0 1px 1px;
+}
+
+.device-normal {
+    background: rgba(0, 134, 255, 0.2);
+    border-radius: 2px;
+    color: #0086ff;
+    width: 44px;
+    height: 24px;
+    display: inline-block;
+    margin-top: 8px;
+    line-height: 24px;
+}
+
+.device-malfunction-short {
+    background: rgba(255, 59, 59, 0.2);
+    border-radius: 2px;
+    color: #ff3b3b;
+    width: 44px;
+    height: 24px;
+    display: inline-block;
+    margin-top: 8px;
+    line-height: 24px;
+}
+
+.device-malfunction-long {
+    background: rgba(255, 59, 59, 0.2);
+    border-radius: 2px;
+    color: #ff3b3b;
+    width: 112px;
+    height: 24px;
+    display: inline-block;
+    margin-top: 8px;
+    line-height: 24px;
+}
+
+.device-normal-num {
+    height: 24px;
+    margin-top: 8px;
+    line-height: 24px;
+    color: #4db22f;
+}
+
+.device-malfunction-num {
+    height: 24px;
+    margin-top: 8px;
+    line-height: 24px;
+    color: #ff3b3b;
+}
+
+.device-monitor {
+    :global {
+        .ant-divider,
+        .ant-divider-vertical {
+            margin: 0;
+        }
+    }
+}
+
+.information-top {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.parameter-limit {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.4);
+    padding-top: 6px;
+    padding-left: 8px !important;
+}
+
+.edit-management-icon {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    padding-right: 8px;
+}
+
+.edit-management-tip {
+    display: inline-block;
+    color: #f54e44;
+}
+
+.descriptions-title-block {
+    display: flex;
+    align-items: center;
+}
+
+.descriptions-title-divider {
+    border-radius: 1px;
+    height: 16px;
+    width: 4px;
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.descriptions-title {
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.divider-color-base {
+    background: #32b84c;
+}
+
+.divider-color-normal {
+    background: #f9775e;
+}
+
+.file-block {
+    display: flex;
+}
+
+.file-list {
+    cursor: pointer;
+    color: #4db22f;
+}
+
+.file-icon {
+    position: relative;
+    bottom: 10px;
+}
+
+.file-name {
+    margin-left: 16px;
+    margin-right: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    width: 180px;
+}
+
+.file-list-delete {
+    cursor: pointer;
+    color: #4db22f;
+}
+
+.file-list-delete:hover {
+    cursor: pointer;
+    color: #ff3b3b;
+}
+
+.filter-footer {
+    height: 36px;
+    line-height: 36px;
+    padding: 0 8px;
+    border-top: 1px solid #e8eaeb;
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture-card-block {
+    max-width: 654px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    :global {
+        .anticon-delete {
+            display: none;
+        }
+    }
+}

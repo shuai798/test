@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>雾</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#005397" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <path d="M8.93382353,0 C12.3303555,0 15.4700227,2.5325533 16.5115729,6.28565215 C17.6249052,5.20076336 19.1413324,4.53333333 20.8125,4.53333333 C24.2297619,4.53333333 27,7.32409173 27,10.7666667 C27,14.0179874 24.529016,16.687904 21.3756886,16.9745264 L21.375,17 L20.857,16.999 L20.8125,17 C20.797446,17 20.7824045,16.9999458 20.7673758,16.9998377 L9,17 L8.93382353,17 C3.77759742,17 0,13.1944204 0,9 C0,3.80557963 3.77759742,0 8.93382353,0 Z" id="path-2"></path>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.703704,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-4">
+            <stop stop-color="#ECF6FF" offset="0%"></stop>
+            <stop stop-color="#C3DEFB" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-14.8%" y="-21.1%" width="129.6%" height="142.1%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="1.33333333" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#005397" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <path d="M12.364127,2 C15.7606589,2 18.9003262,4.5325533 19.9418764,8.28565215 C21.0552086,7.20076336 22.5716358,6.53333333 24.2428035,6.53333333 C27.6600653,6.53333333 30.4303035,9.32409173 30.4303035,12.7666667 C30.4303035,15.1035535 29.1537893,17.1400859 27.2648963,18.2072091 C27.3729044,17.744238 27.4303035,17.2622051 27.4303035,16.7666667 C27.4303035,13.3240917 24.6600653,10.5333333 21.2428035,10.5333333 C19.5716358,10.5333333 18.0552086,11.2007634 16.9418764,12.2856522 C15.9003262,8.5325533 12.7606589,6 9.36412699,6 C7.30588618,6 5.46731792,6.60638615 4.0010091,7.66544127 C5.24065737,4.25652164 8.39366266,2 12.364127,2 Z" id="path-7"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-387.000000, -245.000000)">
+            <g id="雾" transform="translate(387.000000, 245.000000)">
+                <rect id="矩形备份-12" x="0" y="0" width="32" height="32"></rect>
+                <g id="编组-6备份-15" transform="translate(0.000000, 7.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="形状结合">
+                        <use fill="#DDF0FF" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    </g>
+                    <path d="M9.125,-5 C12.6092001,-5 15.854904,-2.68109624 17.3147204,0.869359032 C17.9271599,0.686060374 18.5770806,0.588235294 19.25,0.588235294 C22.9779221,0.588235294 26,3.59056109 26,7.29411765 C26,10.9976742 22.9779221,14 19.25,14 L19.25,14 L9.175,13.999 L9.125,14 C3.38203092,14 -0.851905295,9.89210611 -0.996195911,5.30089303 L-1,5.05882353 C-1,-0.746705123 3.28127708,-5 9.125,-5 Z" id="形状结合备份" fill="url(#radialGradient-4)" filter="url(#filter-5)" mask="url(#mask-3)"></path>
+                    <path d="M9.125,-5 C12.6092001,-5 15.854904,-2.68109624 17.3147204,0.869359032 C17.9271599,0.686060374 18.5770806,0.588235294 19.25,0.588235294 C22.9779221,0.588235294 26,3.59056109 26,7.29411765 C26,10.9976742 22.9779221,14 19.25,14 L19.25,14 L9.175,13.999 L9.125,14 C3.38203092,14 -0.851905295,9.89210611 -0.996195911,5.30089303 L-1,5.05882353 C-1,-0.746705123 3.28127708,-5 9.125,-5 Z" id="形状结合备份-5" fill="url(#radialGradient-4)" mask="url(#mask-3)"></path>
+                </g>
+                <g id="形状结合">
+                    <use fill="#DDF0FF" xlink:href="#path-7"></use>
+                    <use fill="url(#linearGradient-6)" xlink:href="#path-7"></use>
+                </g>
+                <line x1="27" y1="23.5" x2="30" y2="23.5" id="路径-3备份-2" stroke="#C2DEFB" stroke-width="1.5" stroke-linecap="round"></line>
+                <line x1="2" y1="26.5" x2="26.81354" y2="26.5" id="路径-3" stroke="#C2DEFB" stroke-width="1.5" stroke-linecap="round"></line>
+                <line x1="10" y1="29.5" x2="29.81354" y2="29.5" id="路径-3备份" stroke="#C2DEFB" stroke-width="1.5" stroke-linecap="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,59 @@
+.equipment-record {
+  .title-style {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+
+    .icon-style {
+      width: 4px;
+      height: 16px;
+      background: #4db22f;
+      margin-right: 16px;
+      border-radius: 1px;
+    }
+
+    .font-style {
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.85);
+      line-height: 1.5;
+      font-weight: 500;
+    }
+  }
+
+  .over-ant-select-tree {
+    :global {
+      .ant-select-tree {
+        max-height: 400px;
+        overflow-y: auto;
+      }
+    }
+  }
+}
+
+.columnsSearch {
+  :global {
+    .ant-checkbox-group {
+      display: grid;
+    }
+
+    .ant-checkbox-wrapper:hover {
+      background: rgba(0, 136, 255, 0.1);
+    }
+
+    .ant-checkbox-wrapper {
+      width: 100%;
+      padding: 5px 10px;
+    }
+  }
+}
+
+.checkBox {
+  max-height: 200px;
+  overflow: auto;
+}
+
+.checkBoxButton {
+  text-align: center;
+  padding: 5px 0 10px;
+}
+

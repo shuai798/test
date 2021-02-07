@@ -1,0 +1,61 @@
+@import '~antd/es/style/themes/default.less';
+
+.over-ant-select-tree {
+    :global {
+        .ant-select-tree {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+    }
+}
+
+.downLoadButton {
+    margin-top: 20px;
+    height: 32px;
+    width: 109px;
+}
+
+.iconCloseStyle {
+    cursor: pointer;
+    color: #4db22f;
+}
+
+.iconCloseStyle:hover {
+    cursor: pointer;
+    color: #f54e44;
+}
+
+.centerOver {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stepsStyle {
+    :global(.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title) {
+        color: #53b15b;
+        width: 120px;
+        margin-left: 4px;
+    }
+    :global(.ant-steps-label-vertical.ant-steps-small:not(.ant-steps-dot) .ant-steps-item-icon) {
+        color: #53b15b;
+        width: 40px;
+        font-size: 20px;
+        height: 40px;
+        line-height: 36px;
+    }
+    :global(.ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title) {
+        color: rgba(0, 0, 0, 0.85);
+        width: 120px;
+        margin-left: 4px;
+    }
+    :global(.ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title) {
+        color: rgba(0, 0, 0, 0.85);
+        width: 120px;
+        margin-left: 4px;
+    }
+    :global(.ant-steps-label-vertical .ant-steps-item-tail) {
+        margin-left: 65px;
+        margin-top: 7px;
+    }
+}
