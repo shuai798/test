@@ -1,8 +1,0 @@
-node_modules
-.umi
-.umi-production
-dist
-dist.zip
-.idea
-.vscode
-.atom
